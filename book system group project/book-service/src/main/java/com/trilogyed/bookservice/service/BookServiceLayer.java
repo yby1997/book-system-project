@@ -55,7 +55,7 @@ public class BookServiceLayer {
 
         book = bookDao.createBook(book);
         bookViewModel.setId(book.getId());
-        bookViewModel.setNote(noteClient.getNotesByBook(book.getId()));
+//        bookViewModel.setNote(noteClient.getNotesByBook(book.getId()));
         return bookViewModel;
     }
 
